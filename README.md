@@ -1,5 +1,4 @@
-# Trivallo
-Trivallo is your personal travel guide which will give you the information about the routes and will create an itinerary on the basis of your no. of days you have to stay in ur destination place.  
+# Trivallo  
 Trivallo: Your Personal Travel Guide for Seamless Exploration
 
 Traveling to new destinations can be an exhilarating experience, but it often comes with the challenge of planning and organizing your trip. With Trivallo, you have a reliable and efficient travel companion that takes care of all your travel-related needs. Whether you're a seasoned traveler or embarking on your first adventure, Trivallo is designed to simplify your journey and ensure you make the most of your time.
