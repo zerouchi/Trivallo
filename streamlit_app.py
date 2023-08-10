@@ -1,5 +1,6 @@
 import streamlit as st
-import Trivallo.Brain as Brain
+import Brain as Brain
+from streamlit_option_menu import option_menu
 
 
 st.set_page_config(page_title="PLAN-B", page_icon="/Users/omkarvyas/Documents/AI_Projects/AI_Recruit(M)/MicrosoftTeams-image.png")
@@ -7,6 +8,19 @@ def main():
     print('Main is working')
     
     st.markdown('## Travel Plan')
+    
+    
+    with st.sidebar:
+        selected = option_menu(
+            menu_title = "Main Menu",
+            options =["Show routes", "Go Plan"]
+        )
+         
+    if selected == "Show routes":
+        if not  st.session_state.get('started'):
+          From = st.text_input('From')
+          To = st.text_input('To')
+          days = st.text_input('Number of days')     
     
    
     if 'key' not in st.session_state:
